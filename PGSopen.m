@@ -71,7 +71,7 @@ Nx=80; % The basic map will be Nx x Nx pixels (i.e. 80 x 80).
 % 16GB RAM are barely enough for Nx=120.
 imrot=0; % imrot=1 rotates the landmass. This  rotation makes the final 
 % image larger
-DiffPlain=1; %  DiffPlain=1 makes different plains terrains (steppe and 
+DiffPlain=0; %  DiffPlain=1 makes different plains terrains (steppe and 
 % savanna) available
 corl=3; % corl multiplies the correlation length.
 % Larger values for corl => less change with pixel distance => smaller scale (less rough change)
