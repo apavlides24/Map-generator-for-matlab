@@ -24,7 +24,8 @@ in the code and change them as this program is not a function with
 inputs, nargin etc.
 
 DEPENDENCIES: This program requires the statistics toolbox and image 
-processing toolbox of Matlab
+processing toolbox of Matlab.
+OCTAVE: This program can be used with Octave but it takes signficantly longer than the times presented here. 
 
 This program uses the exponential covariance so that every point on the
 grid has some correlation (even if very small) to all other points. The
